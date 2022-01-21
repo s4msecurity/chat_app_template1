@@ -1,0 +1,110 @@
+body{
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    font-size: 12px;
+}
+
+/* PionerGram Logo */
+.pionerLogo{
+    margin: auto;
+    border: 3px solid green;
+}
+
+/*person list zone left */
+.personDiv {
+    max-height: 65vh;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: white #17a2b8 ;
+}
+
+
+.chatingList{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    
+}
+.chatProfile{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    display: inherit;
+    float: left;
+    margin-right: 15px;
+}
+.chatProfileName{
+    padding: 15px;
+    font-size: 15px;
+}
+
+/* Chatting zone right*/
+.chatZone{
+    height: 100vh;
+    margin: 0px;
+    padding: 5px;
+    background-color: #f7f7f7; /*bg-info*/
+}
+.chatMessages{
+    max-height: 80%;
+    width: 100%;
+    margin: 0px; 
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #0275d8 white;
+}
+
+.chatProfileL{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    display: inherit;
+    float: left;
+    margin-left: 15px;
+}
+.cMessageL{
+    padding: 15px;
+    float: left;
+}
+
+
+
+.chatProfileR{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    display: inherit;
+    float: right;
+    margin-right: 15px;
+}
+
+.cMessageR{
+    padding: 15px;
+    float: right;
+}
+
+
+.cMessageInfo{
+    font-size: 8px;
+}
+
+
+/* Message form */
+.generalForm{
+    position: fixed;  
+    bottom: 0px; 
+    width: 100%;
+    height: auto;
+}
+.formBtn{
+    color: black;
+    border-radius:5px;
+}
+
+/* mobil view */
+@media (max-width: 750px) {
+    .generalForm{
+        width: 100%;
+    }
+}
